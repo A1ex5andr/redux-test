@@ -10,13 +10,17 @@ export default function (ComposedComponent) {
     };
 
     componentWillMount() {
-      if(!this.props.authenticated)
+      if (!this.props.authenticated) {
         this.context.router.push('/');
+        alert("Please, SIGN IN to continue!");
+      }
     };
 
     componentWillUpdate(nextProps) {
-      if(!nextProps.authenticated)
+      if (!nextProps.authenticated) {
         this.context.router.push('/');
+        alert("Come back soon :)");
+      }
     }
 
     render() {
