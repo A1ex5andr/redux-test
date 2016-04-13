@@ -8,6 +8,10 @@ export default class App extends Component {
       <div>
         <Header />
         {this.props.children}
+        <div className="container">
+          <h3>Hello World! ))</h3>
+          <p>React - Redux - Webback - Hot Loader - Babel</p>
+        </div>
       </div>
     );
   }
