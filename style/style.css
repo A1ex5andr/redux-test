@@ -1,0 +1,13 @@
+.user-list {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer {
+    margin-top: 80px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
